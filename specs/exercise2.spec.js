@@ -12,6 +12,19 @@ describe("a test suite with shared setup", function(){
    it("returns an array of ids", function(){
       expect(idsOnly(users)).toEqual([1,2,3,4,5,6]);
     });
+
+   it("prints males only", function(){
+      expect(malesOnly())
+   });
+
+   it("returns an array of names that start with J", function(){
+    expect(onlyNamesThatStartWithJ(users)).toEqual(['John','Jane']);
+  });
+
+  it("returns an array of females over 40", function(){
+    expect(femalesOver40(users)).toEqual([{id: 2, name: 'Ellis', age: 46, gender: 'f'}]);
+  });
+  
   
 });
   

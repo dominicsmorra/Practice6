@@ -1,0 +1,14 @@
+{
+    "name": {
+      "type": "string",
+      "default": ""
+    },
+    "age": {
+      "type": "number",
+      "default": 0
+    },
+    "gpa": {
+        "type": "number",
+        "default": 0
+      }
+  }
